@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    background-image: url(https://th.bing.com/th/id/R.f557c8a83ccae5b69b1b3f0a8e4ed562?rik=M7RLAUAdB2lTaw&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f0%2ff%2fd%2f825776-popular-island-wallpaper-2560x1600-windows-7.jpg&ehk=cb3oPBxRiofVbCmCQ7nSBnGJ9NrZ0rSEP0ndL37lr6c%3d&risl=&pid=ImgRaw&r=0);
+    background-size: cover;
+    color: black;
+} 
+.container{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo{
+    width: 120px;
+    margin-left: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    border: dotted 3px white;
+    height: 50px;
+    text-align: center;
+
+}
+#logo a{
+    color: white;
+}
+#nav{
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    width:550px;
+    justify-content: space-evenly;
+    color: black;
+}
+#nav a{
+    color: black;
+    width: 95px;
+    background-color:rgb(150, 27, 48) ;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#content{
+    color: black;
+    padding-left: 110px;
+    padding-top: 110px;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 75px;
+}
+
+button{
+    height: 50px;
+    width: 110px;
+    background-color: rgb(150, 27, 48);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 70px;
+    margin-left: 25px;
+}
+a:hover{
+    background-color: blueviolet;
+}
